@@ -43,7 +43,7 @@ async def storefile(c, m):
     base64_string = await encode_string(f"{m.chat.id}_{msg.message_id}")
     url = f"https://t.me/{BOT_USERNAME}?start={base64_string}"
     txt = urllib.parse.quote(text.replace('--', ''))
-    share_url = f"https://t.me/share?url={url}&text=Join+@UllasTV+for+bengali+movies"
+    share_url = f"tg://share?url=File%20Link%20👉%20{url}"
 
     # making buttons
     buttons = [[
@@ -98,7 +98,7 @@ async def storefile_channel(c, m):
     base64_string = await encode_string(f"{m.chat.id}_{msg.message_id}")
     url = f"https://t.me/{BOT_USERNAME}?start={base64_string}"
     txt = urllib.parse.quote(text.replace('--', ''))
-    share_url = f"https://t.me/share?url={url}&text=Join+@UllasTV+for+bengali+movies"
+    share_url = f"tg://share?url=File%20Link%20👉%20{url}"
 
     # making buttons
     buttons = [[
