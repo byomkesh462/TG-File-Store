@@ -24,6 +24,9 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
+    "BOT_USERNAME": {
+            "description": "Your Bot Username which you sent to @BotFather (Without [@])"
+    },
     "DB_CHANNEL_ID": {
       "description": "give me the telegram channel ID here (better this should be private channel)",
       "value": ""
